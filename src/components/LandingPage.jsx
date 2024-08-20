@@ -2,10 +2,11 @@ import React from 'react';
 
 export default function LandingPage() {
   return (
+        <div className="mt-0 mx-5">
     <div style={styles.hero}>
       <div style={styles.heroContent}>
         <h2 style={styles.subtitle}>Reach new audiences</h2>
-        <h2 style={styles.title}>Digital growth tailored to your business</h2>
+        <h2 style={styles.title}>Digital Growth tailored to your Business</h2>
         <p style={styles.description}>We help you reach new markets and stand out from the competition.</p>
         <a href="#" style={styles.ctaButton}>Get Started</a>
       </div>
@@ -16,6 +17,7 @@ export default function LandingPage() {
           style={styles.image} 
         />
       </div>
+    </div>
     </div>
   );
 }
@@ -34,7 +36,8 @@ const styles = {
   heroContent: {
     maxWidth: '50%',
     minWidth: '300px',
-    marginTop: '0', // Remove extra top margin
+    marginTop: '-90px', // Adjusted top margin for smaller screens
+    paddingLeft: '7rem', // Adjusted padding for smaller screens
   },
   subtitle: {
     color: '#1a73e8',
