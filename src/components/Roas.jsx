@@ -19,9 +19,9 @@ export default function DynamicROASStatement() {
   }, [statements.length]);
 
   return (
-    <div className="flex justify-center items-center p-12 bg-white rounded-lg shadow-lg my-8">
-      <h2 className="text-gray-900 text-5xl font-bold text-center">
-        We give <span className="text-blue-600">{statements[index]}</span> to our clients
+    <div className="w-full flex justify-center items-center py-4 px-6 bg-pink-100 shadow-lg my-10">
+      <h2 className="text-gray-900 text-2xl md:text-3xl lg:text-4xl font-bold text-center">
+        We give <span className="text-purple-600">{statements[index]}</span> to our Clients
       </h2>
     </div>
   );
