@@ -19,7 +19,7 @@ export default function DynamicROASStatement() {
   }, [statements.length]);
 
   return (
-    <div className="w-full flex justify-center items-center py-4 px-6 bg-pink-100 shadow-lg my-10">
+    <div className="w-full flex justify-center items-center py-4 px-6 bg-pink-100 shadow-lg mt-2 mb-10">
       <h2 className="text-gray-900 text-2xl md:text-3xl lg:text-4xl font-bold text-center">
         We give <span className="text-purple-600">{statements[index]}</span> to our Clients
       </h2>

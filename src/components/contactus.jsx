@@ -1,67 +1,183 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { FaInstagram, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import Navbar from '../components/Navbar'; // Adjust the path if necessary
+import Footer from '../components/footer'; // Adjust the path if necessary
 
 const ContactForm = () => {
+  const formContainerRef = useRef(null);
+  const gradientFormRef = useRef(null);
+  const contactDetailsContainerRef = useRef(null);
+  const gradientContactDetailsRef = useRef(null);
+
+  useEffect(() => {
+    if (formContainerRef.current && gradientFormRef.current) {
+      gradientFormRef.current.style.height = `${formContainerRef.current.offsetHeight}px`;
+    }
+    if (contactDetailsContainerRef.current && gradientContactDetailsRef.current) {
+      gradientContactDetailsRef.current.style.height = `${contactDetailsContainerRef.current.offsetHeight}px`;
+    }
+  }, []);
+
   return (
-    <div className="min-h-screen bg-gray-800 py-6 flex flex-col justify-center sm:py-12">
-      <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-        <div className="absolute inset-0 bg-gradient-to-r from-indigo-700 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-        <div className="text-white relative px-4 py-10 bg-indigo-400 shadow-lg sm:rounded-3xl sm:p-20">
-          <div className="text-center pb-6">
-            <h1 className="text-3xl">Contact Us!</h1>
-            <p className="text-gray-300">
-              Fill up the form below to send us a message.
-            </p>
-          </div>
+    <div>
+      <Navbar /> {/* Include the Navbar component here */}
+      
+      {/* Gradient Divider */}
+      <div className="bg-gradient-to-r from-purple-500 to-pink-500 h-1"></div>
+      
+      {/* New Heading Section */}
+      <div className="text-center py-6">
+        <h1 className="text-5xl font-bold text-black mb-4 relative">
+          <span className="relative z-10">Every Success Begins with a Simple Hello</span>
+          <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 via-red-300 to-pink-400 opacity-60 blur-md mx-72 h-16"></div>
+        </h1>
+      </div>
 
-          <form action="https://fabform.io/f/{form-id}" method="post">
-            <input
-              className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              type="text"
-              placeholder="Name"
-              name="name"
-            />
-
-            <input
-              className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              type="email"
-              placeholder="Email"
-              name="email"
-            />
-
-            <input
-              className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              type="text"
-              placeholder="Subject"
-              name="_subject"
-            />
-
-            <textarea
-              className="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              placeholder="Type your message here..."
-              name="message"
-              style={{ height: "121px" }}
-            ></textarea>
-
-            <div className="flex justify-between">
-              <input
-                className="shadow bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                type="submit"
-                value="Send ➤"
-              />
-              <input
-                className="shadow bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                type="reset"
-              />
+      <div className="min-h-screen bg-white-900 py-6 flex flex-col sm:flex-row justify-center sm:py-12">
+        {/* Form Section */}
+        <div className="relative py-3 sm:max-w-xl sm:mx-auto sm:flex-1" ref={formContainerRef}>
+          <div
+            className="absolute inset-0 bg-gradient-to-r from-pink-600 to-red-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
+            ref={gradientFormRef}
+          ></div>
+          <div className="relative px-4 py-10 bg-pink-500 shadow-lg sm:rounded-3xl sm:p-20">
+            <div className="text-white text-center pb-6">
+              <h1 className="text-4xl">Contact Us!</h1>
+              <p className="text-gray-200 text-lg">
+                Fill up the form to get a callback.
+              </p>
             </div>
-            <a
-              href="https://veilmail.io/e/FkKh7o"
-              className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-            >
-              Or click here to reveal our protected email address
-            </a>
-          </form>
+
+            <form action="https://fabform.io/f/{form-id}" method="post">
+              <input
+                className="shadow mb-4 appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-lg"
+                type="text"
+                placeholder="Name"
+                name="name"
+              />
+
+              <input
+                className="shadow mb-4 appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-lg"
+                type="email"
+                placeholder="Email"
+                name="email"
+              />
+              <input
+                className="shadow mb-4 appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-lg"
+                type="text"
+                placeholder="Mobile Number"
+                name="mobile"
+              />
+
+              <input
+                className="shadow mb-4 appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-lg"
+                type="text"
+                placeholder="Subject"
+                name="_subject"
+              />
+
+              <textarea
+                className="shadow mb-4 appearance-none border rounded h-64 w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-lg"
+                placeholder="Type your message here..."
+                name="message"
+                style={{ height: "150px" }}
+              ></textarea>
+
+              <div className="flex justify-between">
+                <input
+                  className="shadow bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline text-lg"
+                  type="submit"
+                  value="Send ➤"
+                />
+                <input
+                  className="shadow bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline text-lg"
+                  type="reset"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        {/* Contact Details Section */}
+        <div className="relative py-3 sm:max-w-xl sm:mx-auto sm:flex-1 mt-6 sm:mt-0 sm:ml-6" ref={contactDetailsContainerRef}>
+          <div
+            className="absolute inset-0 bg-gradient-to-r from-green-600 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
+            ref={gradientContactDetailsRef}
+          ></div>
+          <div className="relative px-4 py-10 bg-green-500 shadow-lg sm:rounded-3xl sm:p-20">
+            <div className="text-white text-center pb-6">
+              <h1 className="text-4xl">Our Contact Details</h1>
+              <p className="text-gray-200 text-lg">You can reach us through the following:</p>
+            </div>
+
+            <div className="space-y-6 text-2xl">
+          <p>  <a href="tel:+917508857909">
+                <strong>Phone:</strong>+917508857909
+                </a></p>
+                  <p>
+                <a href="tel: +919780883345">
+                <strong>Phone:</strong> +91 9780883345
+                </a>
+                  </p>
+              <p>
+                <strong>Email:</strong> hello@vizionix.live
+              </p>
+
+              <p>
+                <FaInstagram className="inline mr-3 text-3xl" />
+                <a
+                  href="https://instagram.com/yourcompany"
+                  className="text-black-100 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @thevizionix
+                </a>
+              </p>
+
+              <p>
+                <FaFacebook className="inline mr-3 text-3xl" />
+                <a
+                  href="https://facebook.com/yourcompany"
+                  className="text-black-100 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                 Vizionix Media Solutions
+                </a>
+              </p>
+
+              <p>
+                <FaLinkedin className="inline mr-3 text-3xl" />
+                <a
+                  href="https://linkedin.com/company/yourcompany"
+                  className="text-black-100 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Vizionix Media Solutions
+                </a>
+              </p>
+
+              <p>
+                <FaTwitter className="inline mr-3 text-3xl" />
+                <a
+                  href="https://x.com/yourcompany"
+                  className="text-black-100 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                 thevizionix
+                </a>
+              </p>
+              <p>
+                <strong>Address:</strong> SAS Nagar, Mohali, Punjab, India
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+        <Footer /> {/* Include the Footer component here */}
     </div>
   );
 };

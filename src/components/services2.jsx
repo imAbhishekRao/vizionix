@@ -9,8 +9,6 @@ import SMM1 from '../image/Instagram-Logo-2016-2584243569.png';
 import SMM2 from '../image/Facebook-Logo-PNG-Isolated-HD-797459204.png';
 import Content from '../image/content.png';
 import Amazon2 from '../image/flipkart-logo-transparent-png-download-0-1179153130.png';
-import Navbar from './Navbar';
-import Footer from './footer';
 
 const OurWorkSection = () => {
   const projects = [
@@ -57,10 +55,7 @@ const OurWorkSection = () => {
   ];
 
   return (
-    <>
-    <div><Navbar /></div>
     <div className="bg-gray-700 p-4 min-h-screen">
-          
       <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20">
         <div className="blur-[106px] h-56 bg-gradient-to-br from-blue-700 to-purple-400"></div>
         <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
@@ -104,8 +99,6 @@ const OurWorkSection = () => {
         </div>
       </div>
     </div>
-    <div><Footer /></div>
-    </>
   );
 };
 
