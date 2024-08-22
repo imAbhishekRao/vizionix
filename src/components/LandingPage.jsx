@@ -2,115 +2,33 @@ import React from 'react';
 
 export default function LandingPage() {
   return (
-        <div className="mt-0 mx-5">
-    <div style={styles.hero}>
-      <div style={styles.heroContent}>
-        <h2 style={styles.subtitle}>Reach new audiences</h2>
-        <h2 style={styles.title}>Digital Growth tailored to your Business</h2>
-        <p style={styles.description}>We help you reach new markets and stand out from the competition.</p>
-        <a href="#" style={styles.ctaButton}>Get Started</a>
+    <div className="mt-0 mx-5">
+      <div className="flex flex-col lg:flex-row items-center justify-between p-8 lg:py-16 lg:px-24 bg-white lg:top-[-80px]">
+        <div className="lg:w-1/2 lg:pl-16 text-center lg:text-left lg:relative lg:top-[-60px]">
+          <h2 className="text-blue-600 text-2xl sm:text-3xl lg:text-5xl font-bold mb-4 leading-tight lg:mb-8 lg:mt-12">
+            Reach new audiences
+          </h2>
+          <h2 className="text-gray-900 text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight lg:mt-4">
+            Digital Growth tailored to your Business
+          </h2>
+          <p className="text-gray-600 text-base sm:text-lg mb-6">
+            We help you reach new markets and stand out from the competition.
+          </p>
+          <a
+            href="/contact"
+            className="inline-block px-6 py-3 bg-gray-900 text-white text-base font-medium rounded-lg shadow-md hover:bg-gray-800 transition-colors"
+          >
+            Get Started
+          </a>
+        </div>
+        <div className="lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0">
+          <img
+            src="https://themes.ainoblocks.io/solarone/wp-content/uploads/sites/4/2023/02/solarone-hero-01.png"
+            alt="Hero Image"
+            className="max-w-full h-auto rounded-lg"
+          />
+        </div>
       </div>
-      <div style={styles.heroImage}>
-        <img 
-          src="https://themes.ainoblocks.io/solarone/wp-content/uploads/sites/4/2023/02/solarone-hero-01.png" 
-          alt="Hero Image" 
-          style={styles.image} 
-        />
-      </div>
-    </div>
     </div>
   );
 }
-
-const styles = {
-  hero: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '30px', // Reduced padding to decrease space
-    backgroundColor: 'white',
-    flexDirection: 'row', // Default layout is row
-    flexWrap: 'wrap',
-    marginTop: '0', // Ensure there's no extra space at the top
-  },
-  heroContent: {
-    maxWidth: '50%',
-    minWidth: '300px',
-    marginTop: '-90px', // Adjusted top margin for smaller screens
-    paddingLeft: '7rem', // Adjusted padding for smaller screens
-  },
-  subtitle: {
-    color: '#1a73e8',
-    fontSize: '24px',
-    marginBottom: '10px',
-    lineHeight: '1.2', // Ensure lineHeight is set
-  },
-  title: {
-    color: '#222222',
-    fontSize: '80px',
-    fontWeight: 'bold',
-    lineHeight: '1', // Set lineHeight to minimize space between lines
-    marginBottom: '20px',
-  },
-  description: {
-    color: '#555555',
-    fontSize: '18px',
-    marginBottom: '20px', // Reduced margin-bottom to minimize space
-  },
-  ctaButton: {
-    display: 'inline-block',
-    padding: '15px 30px',
-    backgroundColor: '#222222',
-    color: '#ffffff',
-    textDecoration: 'none',
-    fontSize: '16px',
-    borderRadius: '5px',
-  },
-  heroImage: {
-    maxWidth: '45%',
-    minWidth: '300px',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: '0', // Remove extra top margin
-  },
-  image: {
-    maxWidth: '100%',
-    height: 'auto',
-    borderRadius: '10px',
-  },
-  // Media queries for responsiveness
-  '@media (max-width: 1024px)': {
-    hero: {
-      flexDirection: 'column', // Stack items on smaller screens
-      textAlign: 'center',
-      padding: '20px', // Further reduced padding for smaller screens
-    },
-    heroContent: {
-      maxWidth: '100%',
-      marginBottom: '20px',
-      marginTop: '10px', // Adjust top margin for responsiveness
-    },
-    heroImage: {
-      maxWidth: '100%',
-      marginTop: '10px', // Adjust top margin for responsiveness
-    },
-  },
-  '@media (max-width: 768px)': {
-    title: {
-      fontSize: '36px', // Adjust title font size for smaller screens
-      lineHeight: '1', // Ensure lineHeight is adjusted for smaller screens
-    },
-    subtitle: {
-      fontSize: '20px', // Adjust subtitle font size for smaller screens
-      lineHeight: '1.2', // Adjust lineHeight for subtitle
-    },
-    description: {
-      fontSize: '16px', // Adjust description font size for smaller screens
-    },
-    ctaButton: {
-      padding: '12px 24px',
-      fontSize: '14px',
-    },
-  },
-};

@@ -48,7 +48,7 @@ const ContactForm = () => {
               </p>
             </div>
 
-            <form action="https://fabform.io/f/{form-id}" method="post">
+            <form action="https://fabform.io/f/IlA0UCq" method="post">
               <input
                 className="shadow mb-4 appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-lg"
                 type="text"
