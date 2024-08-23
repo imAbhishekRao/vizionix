@@ -119,8 +119,11 @@ const ContactForm = () => {
                 <strong>Phone:</strong> +91 9780883345
                 </a>
                   </p>
+                  
               <p>
-                <strong>Email:</strong> hello@vizionix.live
+              <a href="mailto: thevizionix@gmail.com">
+                <strong>Email:</strong> thevizionix@gmail.com
+                </a>
               </p>
 
               <p>

@@ -59,7 +59,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
-                className="block py-2 px-4 text-black bg-white rounded hover:bg-purple-100 hover:text-purple-600 text-base"
+                className="block py-2 px-4 text-black bg-white rounded hover:bg-purple-100 hover:text-purple-600 text-base focus:bg-purple-100 focus:text-purple-600"
                 aria-current="page"
               >
                 Home
@@ -68,7 +68,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/about"
-                className="block py-2 px-4 text-black bg-white rounded hover:bg-purple-100 hover:text-purple-600 text-base"
+                className="block py-2 px-4 text-black bg-white rounded hover:bg-purple-100 hover:text-purple-600 text-base focus:bg-purple-100 focus:text-purple-600"
               >
                 About
               </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/services"
-                className="block py-2 px-4 text-black bg-white rounded hover:bg-purple-100 hover:text-purple-600 text-base"
+                className="block py-2 px-4 text-black bg-white rounded hover:bg-purple-100 hover:text-purple-600 text-base focus:bg-purple-100 focus:text-purple-600"
               >
                 Services
               </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/contact"
-                className="block py-2 px-4 text-black bg-white rounded hover:bg-purple-100 hover:text-purple-600 text-base"
+                className="block py-2 px-4 text-black bg-white rounded hover:bg-purple-100 hover:text-purple-600 text-base focus:bg-purple-100 focus:text-purple-600"
               >
                 Contact
               </Link>

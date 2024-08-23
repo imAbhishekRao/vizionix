@@ -13,11 +13,13 @@ import Testimonials from '../components/Testimonials'
 
 
 
+
+
 export default function HomePage() {
   return (
 
 <>
-<div><Navbar></Navbar></div>
+<div><Navbar/></div>
 <LandingPage/>
 <Roas/>
 <Features></Features>
