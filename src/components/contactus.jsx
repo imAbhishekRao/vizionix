@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { FaInstagram, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Navbar from '../components/Navbar'; // Adjust the path if necessary
 import Footer from '../components/footer'; // Adjust the path if necessary
+import FixedWhatsAppButton from "./whatsapp";
 
 const ContactForm = () => {
   const formContainerRef = useRef(null);
@@ -21,6 +22,7 @@ const ContactForm = () => {
   return (
     <div>
       <Navbar /> {/* Include the Navbar component here */}
+      <FixedWhatsAppButton /> {/* Include the FixedWhatsAppButton component here */}
       
       {/* Gradient Divider */}
       <div className="bg-gradient-to-r from-purple-500 to-pink-500 h-1"></div>
