@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function LandingPage() {
   return (
+    
     <div className="mt-0 mx-5">
       <div className="flex flex-col lg:flex-row items-center justify-between p-8 lg:py-16 lg:px-24 bg-white lg:top -[-80px]">
         <div className="lg:w-1/2 lg:pl-16 text-center lg:text-left lg:relative lg:top-[-100px]"> {/* Adjusted the top position */}

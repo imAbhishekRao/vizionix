@@ -8,6 +8,7 @@ import Footer from '../components/footer'
 import Features from '../components/features'
 import NewsLetter from '../components/newsletter'
 import Testimonials from '../components/Testimonials'
+import FixedWhatsAppButton from '../components/whatsapp'
 
 
 
@@ -19,7 +20,9 @@ export default function HomePage() {
   return (
 
 <>
+
 <div><Navbar/></div>
+<FixedWhatsAppButton/>
 <LandingPage/>
 <Roas/>
 <Features></Features>
