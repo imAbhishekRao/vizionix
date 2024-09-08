@@ -5,9 +5,9 @@ const testimonials = [
     id: 1,
     quote: "A game-changer for our healthcare products!",
     text: "Vizionix transformed Bioquench's approach with their innovative solutions. We're thrilled with the seamless collaboration and results.",
-    name: "Harsh Agnihotri",
+    name: "Rohit Tiwari",
     role: "Co-Founder, Bioquench",
-    image: "https://randomuser.me/api/portraits/men/71.jpg"
+    image: "https://cdn.shopify.com/s/files/1/0586/7408/5939/files/WhatsApp_Image_2024-09-07_at_16.19.57.jpg?v=1725779696"
   },
   {
     id: 2,
@@ -15,15 +15,15 @@ const testimonials = [
     text: "Vizionix's expertise has significantly boosted The Study Wave's presence in multiple countries. We're extremely satisfied with their support.",
     name: "Mohit Tariyal",
     role: "Founder, TheStudyWave.com",
-    image: "https://randomuser.me/api/portraits/men/70.jpg"
+    image: "https://cdn.shopify.com/s/files/1/0586/7408/5939/files/Untitled_design_7_.0cf65139157f1750d676.png?v=1725779463"
   },
   {
     id: 3,
     quote: "Highly impressed with the outcome!",
     text: "Elevexo's brand has thrived thanks to Vizionix's effective strategies. The results in the US and Canada speak for themselves.",
     name: "Sutantar Barar",
-    role: "Founder, Elevexo.com",
-    image: "https://randomuser.me/api/portraits/men/72.jpg"
+    role: "Founder, Evolexo.com",
+    image: "https://cdn.shopify.com/s/files/1/0586/7408/5939/files/WhatsApp_Image_2024-09-08_at_12.07.57.jpg?v=1725779559g"
   }
 ];
 
