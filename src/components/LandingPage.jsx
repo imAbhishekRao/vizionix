@@ -21,7 +21,7 @@ export default function LandingPage() {
       </style>
       <div className="mt-0 mx-5">
         <div className="flex flex-col lg:flex-row items-center justify-between p-8 lg:py-16 lg:px-24 bg-white">
-          <div className="lg:w-1/2 lg:pl-16 text-center lg:text-left">
+          <div className="lg:w-1/2 lg:pl-16 text-center lg:text-left lg:relative lg:top-[-100px]">
             <h2 className="text-purple-600 text-2xl sm:text-3xl lg:text-5xl font-bold mb-4 leading-tight lg:mb-8 lg:mt-12">
               Reach new audiences
             </h2>
