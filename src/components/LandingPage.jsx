@@ -24,7 +24,7 @@ export default function LandingPage() {
         </div>
         <div className="lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0">
           <img
-            src="https://themes.ainoblocks.io/solarone/wp-content/uploads/sites/4/2023/02/solarone-hero-01.png"
+            src="https://github.com/imAbhishekRao/vizionix/blob/master/public/Untitled%20design%20(2).png?raw=true"
             alt="Hero Image"
             className="max-w-full h-auto rounded-lg"
           />
