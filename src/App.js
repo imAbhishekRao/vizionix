@@ -6,6 +6,7 @@ import ContactForm from './components/contactus'; // Import the ContactForm comp
 import AboutUs from './components/aboutus';
 import Services from './components/services';
 import PrivacyPolicy from './components/privacypolicy';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<AboutUs />}/>
           <Route path="/services" element={<Services/>}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
+          <Route path="/projects" element={<Projects/>}/>
         
         </Routes>
       </div>

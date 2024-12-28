@@ -83,6 +83,14 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                to="/projects"
+                className="block py-2 px-4 text-black bg-white rounded hover:bg-purple-100 hover:text-purple-600 text-base focus:bg-purple-100 focus:text-purple-600"
+              >
+               Website Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/contact"
                 className="block py-2 px-4 text-black bg-white rounded hover:bg-purple-100 hover:text-purple-600 text-base focus:bg-purple-100 focus:text-purple-600"
               >
