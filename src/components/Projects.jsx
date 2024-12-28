@@ -14,7 +14,7 @@ import Footer from "./footer";
 const styles = {
   container: {
     backgroundColor: "#F0F0F5", // Light gray background for the container
-    padding: "1.5em 3em",
+    padding: "1.5em 3em 1.5em 3em", // Padding on all sides
     minHeight: "100vh",
   },
   heading: {
