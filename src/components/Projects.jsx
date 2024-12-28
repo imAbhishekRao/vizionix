@@ -10,11 +10,10 @@ import max from "../image/maxxon.png";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 
-
 const styles = {
   container: {
     backgroundColor: "#F0F0F5", // Light gray background for the container
-    padding: "1.5em 3em 1.5em 3em", // Padding on all sides
+    padding: "1.5em 3em", // Padding on all sides
     minHeight: "100vh",
   },
   heading: {
@@ -25,7 +24,7 @@ const styles = {
   },
   grid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", // Default for smaller screens
+    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", // Auto-resizing grid items with a minimum width of 250px
     gap: "20px",
   },
   gridLaptop: {
