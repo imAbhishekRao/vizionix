@@ -9,12 +9,43 @@ import stitch from "../image/stitchnsinviz.png";
 import max from "../image/maxxon.png";
 import Navbar from "./Navbar";
 import Footer from "./footer";
+import portfolioImage from "../image/portfoliobg.png"; // Add your image path here
+
+import WhyWorkWithVizionix from "./whyworkwithus";
 
 const styles = {
   container: {
-    backgroundColor: "#F0F0F5", // Light gray background for the container
-    padding: "1.5em 3em", // Padding on all sides
+    backgroundColor: "#F0F0F5",
+    padding: "1.5em 3em",
     minHeight: "100vh",
+  },
+  headerImageContainer: {
+    position: "relative",
+    width: "100%",
+    height: "300px", // Adjust height as needed
+    overflow: "hidden",
+  },
+  headerImage: {
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    filter: "blur(5px)", // Apply blur effect
+  },
+  headerText: {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    color: "#FFF",
+    textAlign: "center",
+    fontSize: "clamp(1.5rem, 5vw, 3em)", // Responsive font size
+    fontWeight: "bold",
+    textShadow: "0px 4px 10px rgba(0, 0, 0, 0.7)", // Add text shadow for readability
+    fontFamily: "Raleway, sans-serif",
+    whiteSpace: "nowrap", // Prevent text breaking on laptop view
+  },
+  headerTextMobile: {
+    whiteSpace: "normal", // Allow text breaking for mobile view
   },
   heading: {
     fontSize: "2.5rem",
@@ -24,16 +55,16 @@ const styles = {
   },
   grid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", // Auto-resizing grid items with a minimum width of 250px
+    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
     gap: "20px",
   },
   gridLaptop: {
     display: "grid",
-    gridTemplateColumns: "repeat(3, 1fr)", // 3 cards per row on larger screens
+    gridTemplateColumns: "repeat(3, 1fr)",
     gap: "20px",
   },
   card: {
-    backgroundColor: "#ffffff", // Restored card color
+    backgroundColor: "#ffffff",
     color: "#333",
     borderRadius: "10px",
     boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
@@ -42,18 +73,18 @@ const styles = {
     transition: "transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease",
     position: "relative",
     border: "2px solid transparent",
-    cursor: "pointer", // Make it clear it's clickable
+    cursor: "pointer",
   },
   cardHover: {
     transform: "scale(1.05)",
     boxShadow: "0px 6px 20px rgba(0, 0, 0, 0.2)",
     border: "2px solid #6B46C1",
-    boxShadow: "0 0 20px 5px rgba(107, 70, 193, 0.5)", // Glowy border effect
+    boxShadow: "0 0 20px 5px rgba(107, 70, 193, 0.5)",
   },
   image: {
     width: "100%",
     borderRadius: "10px",
-    marginBottom: "0px", // Reduced spacing
+    marginBottom: "0px",
   },
   title: {
     fontSize: "1.5rem",
@@ -79,6 +110,33 @@ const styles = {
   },
   buttonHover: {
     backgroundColor: "#5A3CA6",
+  },
+  section: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginTop: "3em",
+    marginBottom: "3em",
+    flexWrap: "wrap",
+  },
+  textContainer: {
+    flex: "1 1 45%",
+    padding: "20px",
+  },
+  imageContainer: {
+    flex: "1 1 45%",
+    padding: "20px",
+    textAlign: "center",
+  },
+  photoContainer: {
+    width: "100%",
+    maxWidth: "300px",  // Adjust this to control the width
+    height: "auto", // Maintain aspect ratio
+    margin: "0 auto", // Center the image
+  },
+  photoImage: {
+    width: "100%",  // Make it responsive
+    borderRadius: "10px",
   },
 };
 
@@ -131,7 +189,7 @@ const Projects = () => {
       image: natuf,
       title: "Natuf",
       description: "Natuf brings the finest Middle Eastern deserts and FMCG products.",
-      demoLink:"https://natuf.in/",
+      demoLink: "https://natuf.in/",
     },
     {
       image: stitch,
@@ -171,20 +229,33 @@ const Projects = () => {
     },
   ];
 
+  const isMobile = window.innerWidth < 1024;
+
   return (
     <>
-    <Navbar/>
-    <div style={styles.container}>
-      <h2 style={styles.heading}>Our Crafted Websites</h2>
-      <div style={window.innerWidth >= 1024 ? styles.gridLaptop : styles.grid}>
-        {projectData.map((project, index) => (
-          <ProjectCard key={index} {...project} />
-        ))}
+      <Navbar />
+ 
+     <WhyWorkWithVizionix/>
+     <div className="text-center text-white text-4xl font-bold pt-4 pb-4 mt-5 mb-2 bg-pink-500 font-medium">
+      Our Portfolio, See the Web Projects of Vizionix
+     </div>
+    
+      <div style={styles.container}>
+
+       
+        
+        <div style={window.innerWidth >= 1024 ? styles.gridLaptop : styles.grid}>
+          {projectData.map((project, index) => (
+            <ProjectCard key={index} {...project} />
+          ))}
+        </div>
       </div>
-    </div>
-    <Footer/>
+
+      {/* Why Work with Vizionix Section */}
+      <Footer/>
     </>
   );
 };
 
 export default Projects;
+
