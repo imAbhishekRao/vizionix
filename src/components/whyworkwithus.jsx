@@ -104,17 +104,17 @@ const WhyWorkWithVizionix = () => (
         <ul style={styles.list}>
           <li style={styles.listItem}>
             <span style={styles.icon}>✔</span>
-            <strong>Custom Website Development:</strong> Tailored websites designed to meet your business goals and customer needs.
+            <strong>Custom Website Development</strong> 
           </li>
           
           <li style={styles.listItem}>
             <span style={styles.icon}>✔</span>
-            <strong>Responsive & Mobile-Friendly:</strong> Our designs adapt seamlessly to all devices, ensuring a great user experience.
+            <strong>Responsive & Mobile-Friendly</strong> 
           </li>
          
           <li style={styles.listItem}>
             <span style={styles.icon}>✔</span>
-            <strong>Ongoing Support & Maintenance:</strong> We offer continued support to ensure your website stays up-to-date and secure.
+            <strong>Ongoing Support & Maintenance</strong> 
           </li>
         </ul>
       </div>
