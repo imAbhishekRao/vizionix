@@ -236,7 +236,7 @@ const Projects = () => {
       <Navbar />
  
      <WhyWorkWithVizionix/>
-     <div className="text-center text-white text-4xl font-bold pt-4 pb-4 mt-5 mb-2 bg-pink-500 font-medium">
+     <div className="text-center text-white text-4xl font-bold pt-4 pb-4 px-2 mt-5 mb-2 bg-pink-500 font-medium">
       Our Portfolio, See the Web Projects of Vizionix
      </div>
     
