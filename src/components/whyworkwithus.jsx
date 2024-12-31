@@ -119,7 +119,7 @@ const WhyWorkWithVizionix = () => (
         </ul>
       </div>
       <div style={styles.imageSection}>
-        <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/White%20and%20Red%20Coffee%20Customer%20Testimonial%20%20Reviews%20Instagram%20Post.gif?raw=true" alt="Why work with Vizionix" style={styles.image} />
+        <img src="https://github.com/imAbhishekRao/vizionix/blob/master/src/image/White%20and%20Red%20Coffee%20Customer%20Testimonial%20%20Reviews%20Instagram%20Post%20(1).gif?raw=true" alt="Why work with Vizionix" style={styles.image} />
       </div>
     </div>
   </div>
