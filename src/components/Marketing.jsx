@@ -1,6 +1,6 @@
 import React from "react";
 import Image1 from "../image/New 31X ROAS.jpg";
-import Image3 from "../image/New Website Portfolio 6.32x ROAS.jpg";
+import Image3 from "../image/cosmetic.jpg";
 import Image4 from "../image/Meta Portfolio 4.88x 1.jpg"
 import Image5 from"../image/Meta Portfolio 3.88x 1.png"
 import Image6 from"../image/Solar powe Business.jpg"
@@ -12,6 +12,8 @@ import Navbar from "./Navbar";
 import Footer from "./footer";
 import FirstSection from "./FirstSection";
 import SelectiveSection from "./SelectiveSection";
+
+
 
 
 
@@ -102,16 +104,15 @@ const AdPerformance = () => {
                 },
                 {
                     image: Image2 , // Replace with your image path
-                    heading: "Skincare Brand Achieves 10X Growth with 7.51X ROAS",
+                    heading: "Skincare Brand Achieves 10X Growth with 7.21X ROAS",
                     paragraph:
                       "We helped a skincare brand achieve massive growth, generating ₹15.52L in revenue from a strategic ad spend of just ₹2.15L, delivering over 2,000 purchases. With an impressive 7.51X ROAS, our expert digital marketing strategies drove 10X growth, propelling the brand to remarkable success in record time.",
                   },
                 {
                   image: Image3, // Replace with your image path
-                  heading: "Skincare Brand Achieves 3X Revenue Growth with Our Digital Marketing Expertise",
+                  heading: "Transforming a Cosmetic Brand: Exceptional Growth and Market Recognition",
                   paragraph:
-                  "With our tailored digital marketing strategies, we helped a skincare brand achieve massive growth, scaling their revenue from ₹6,000 to ₹38,000 in record time—a remarkable 3X growth. This success underscores our ability to unlock rapid business transformation through innovative and data-driven marketing solutions."    },
-                // Add more objects here for new cards
+"We empowered a cosmetic brand to scale from ₹53K to ₹2.44L in revenue, achieving an impressive 4.59X ROAS. Our strategic marketing efforts not only drove exceptional growth but also established the brand as a prominent name in its market, ensuring sustainable success and increased recognition."},                // Add more objects here for new cards
                 {
                     image: Image4, // Replace with your image path
                     heading: "Health & Wellness Brand Scaled to ₹5 Lakhs/Month with Strategic Digital Marketing",
