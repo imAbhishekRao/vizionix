@@ -106,18 +106,18 @@ const AdPerformance = () => {
                     image: Image2 , // Replace with your image path
                     heading: "Skincare Brand Achieves 10X Growth with 7.21X ROAS",
                     paragraph:
-                      "We helped a skincare brand achieve massive growth, generating ₹15.52L in revenue from a strategic ad spend of just ₹2.15L, delivering over 2,000 purchases. With an impressive 7.51X ROAS, our expert digital marketing strategies drove 10X growth, propelling the brand to remarkable success in record time.",
+                      "We helped a skincare brand achieve massive growth, generating ₹15.52L in revenue from a strategic ad spend of just ₹2.15L, delivering over 2,000 purchases. With an impressive 7.21X ROAS, our expert digital marketing strategies drove 10X growth, propelling the brand to remarkable success in record time.",
                   },
                 {
                   image: Image3, // Replace with your image path
                   heading: "Transforming a Cosmetic Brand: Exceptional Growth and Market Recognition",
                   paragraph:
-"We empowered a cosmetic brand to scale from ₹53K to ₹2.44L in revenue, achieving an impressive 4.59X ROAS. Our strategic marketing efforts not only drove exceptional growth but also established the brand as a prominent name in its market, ensuring sustainable success and increased recognition."},                // Add more objects here for new cards
+"We empowered a cosmetic brand to scale from ₹0 to ₹2.44L in revenue,with modest ad spend of ₹53K achieving an impressive 4.59X ROAS. Our strategic marketing efforts not only drove exceptional growth but also established the brand as a prominent name in its market, ensuring sustainable success and increased recognition."},                // Add more objects here for new cards
                 {
                     image: Image4, // Replace with your image path
                     heading: "Health & Wellness Brand Scaled to ₹5 Lakhs/Month with Strategic Digital Marketing",
                     paragraph:
-            "In just 3 months, we transformed a health and wellness brand's performance, increasing revenue from ₹32.7K to ₹159.6K and achieving a consistent ₹5 Lakh/month turnover. With a 4X ROAS and an impressive 12% website conversion rate, our strategic digital marketing efforts unlocked exponential growth and set a strong foundation for sustainable success. "  },
+            "In just 3 months, we transformed a health and wellness brand's performance, increasing revenue to ₹159.6K in just ₹32.7K  Ad Spend. With a 4X ROAS and an impressive 12% website conversion rate, our strategic digital marketing efforts unlocked exponential growth and set a strong foundation for sustainable success. "  },
             {
                     image: Image5, // Replace with your image path
                     heading: "Multivitamin Brand Scales to ₹10 Lakhs/Month with Strategic Marketing",
