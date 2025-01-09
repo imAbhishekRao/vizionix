@@ -7,6 +7,8 @@ import AboutUs from './components/aboutus';
 import Services from './components/services';
 import PrivacyPolicy from './components/privacypolicy';
 import Projects from './components/Projects';
+import Marketing from './components/Marketing';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Route path="/services" element={<Services/>}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
           <Route path="/projects" element={<Projects/>}/>
+          <Route path="/marketing" element={<Marketing/>}/>
         
         </Routes>
       </div>

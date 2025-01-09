@@ -32,6 +32,7 @@ export default function HomePage() {
 <NewsLetter></NewsLetter>
 <Testimonials></Testimonials>
 
+
 <Footer></Footer>
 
 
