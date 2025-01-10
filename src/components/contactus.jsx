@@ -131,7 +131,7 @@ const ContactForm = () => {
               <p>
                 <FaInstagram className="inline mr-3 text-3xl" />
                 <a
-                  href="https://instagram.com/yourcompany"
+                  href="https://www.instagram.com/thevizionix/"
                   className="text-black-100 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -143,7 +143,7 @@ const ContactForm = () => {
               <p>
                 <FaFacebook className="inline mr-3 text-3xl" />
                 <a
-                  href="https://facebook.com/yourcompany"
+                  href="https://www.facebook.com/profile.php?id=61565175035180"
                   className="text-black-100 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -155,7 +155,7 @@ const ContactForm = () => {
               <p>
                 <FaLinkedin className="inline mr-3 text-3xl" />
                 <a
-                  href="https://linkedin.com/company/yourcompany"
+                  href="https://www.linkedin.com/company/vizionix-media-solutions/"
                   className="text-black-100 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -167,7 +167,7 @@ const ContactForm = () => {
               <p>
                 <FaTwitter className="inline mr-3 text-3xl" />
                 <a
-                  href="https://x.com/yourcompany"
+                  href="https://x.com/thevizionix"
                   className="text-black-100 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
