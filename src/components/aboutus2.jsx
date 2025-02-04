@@ -6,7 +6,7 @@ import Image3 from '../image/team-05-variant.png';
 const TeamSection = () => {
   const teamMembers = [
     { name: 'Deepanshu Bhateja', title: 'Co-Founder / Marketing Strategist', img: Image3 },
-    { name: 'Abhishek Gobind Rao', title: 'Co-Founder / Web Developer', img: Image2 },
+    { name: 'Gaurav Rohilla', title: 'Co-Founder / Web Developer', img: Image2 },
     { name: 'Vivek Tripathi', title: 'Project Manager/ Brand Strategist', img: Image1 },
   ];
 

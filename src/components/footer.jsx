@@ -28,7 +28,7 @@ const Footer = () => {
               <a href="/services">Services</a>
             </div>
             <div className="px-5 py-2">
-              <a href="tel:+91 7508857909">+917508857909</a>
+              <a href="tel:+918307485737">+918307485737</a>
             </div>
             <div className="px-5 py-2">
               <a href="mailto:info@vizionix.com">thevizionix@gmail.com</a>
