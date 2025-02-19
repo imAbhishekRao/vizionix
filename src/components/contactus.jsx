@@ -113,8 +113,8 @@ const ContactForm = () => {
             </div>
 
             <div className="space-y-6 text-2xl">
-          <p>  <a href="tel:+918307485737">
-                <strong>Phone:</strong>+918307485737
+          <p>  <a href="tel:+917508857909">
+                <strong>Phone:</strong>+917508857909
                 </a></p>
                   <p>
                 <a href="tel: +919780883345">
@@ -123,8 +123,8 @@ const ContactForm = () => {
                   </p>
                   
               <p>
-              <a href="mailto: thevizionix@gmail.com">
-                <strong>Email:</strong> thevizionix@gmail.com
+              <a href="mailto: info@vizionix.live">
+                <strong>Email:</strong> info@vizionix.live
                 </a>
               </p>
 
