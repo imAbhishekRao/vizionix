@@ -13,8 +13,8 @@ const testimonials = [
     id: 2,
     quote: "Exceptional support and results!",
     text: "Vizionix's expertise has significantly boosted The Study Wave's presence in multiple countries. We're extremely satisfied with their support.",
-    name: "Pankaj Yadav",
-    role: "Founder, Flying Monk",
+    name: "Mohit Tariyal",
+    role: "Founder, The Study Wave",
     image: "https://cdn.shopify.com/s/files/1/0586/7408/5939/files/Untitled_design_7_.0cf65139157f1750d676.png?v=1725779463"
   },
   {
