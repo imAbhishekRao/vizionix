@@ -9,8 +9,8 @@ import stitch from "../image/stitchnsinviz.png";
 import max from "../image/maxxon.png";
 import Navbar from "./Navbar";
 import Footer from "./footer";
-import GlowmieImage from "../image/glowmieviz.png";
-import ItalianPavillion from "../image/italianpavillion.png";
+import Glowmie from "../image/glow.png";
+import IP from "../image/IPP.png";
 import WhyWorkWithVizionix from "./whyworkwithus";
 
 const styles = {
@@ -186,7 +186,7 @@ const Projects = () => {
       demoLink: "https://bioquench.in/",
     },
     {
-      image: GlowmieImage,
+      image: Glowmie,
       title: "Glowmie",
       description: "Glowmie offers a wide range of supplements, gummies and other products for  Skincare and wellness .",
       demoLink: "https://glowmie.com/",
@@ -204,7 +204,7 @@ const Projects = () => {
       demoLink: "https://stitchnsin.com/",
     },
      {
-      image: ItalianPavillion,
+      image: IP,
       title: "Italian Pavillion (italian ambassy )",
       description: "Italian Pavillion is a mall who hosts most of the events of italian ambassy in India.",
      
