@@ -9,7 +9,8 @@ import stitch from "../image/stitchnsinviz.png";
 import max from "../image/maxxon.png";
 import Navbar from "./Navbar";
 import Footer from "./footer";
-import portfolioImage from "../image/portfoliobg.png"; // Add your image path here
+import GlowmieImage from "../image/glowmieimage.png"; // Add your image path here
+import ItalianPavillion from "../image/ItalianPavallion.png"; // Add your image path here
 
 import WhyWorkWithVizionix from "./whyworkwithus";
 
@@ -186,6 +187,12 @@ const Projects = () => {
       demoLink: "https://bioquench.in/",
     },
     {
+      image: GlowmieImage,
+      title: "Glowmie",
+      description: "Glowmie offers a wide range of supplements, gummies and other products for  Skincare and wellness .",
+      demoLink: "https://glowmie.com/",
+    },
+    {
       image: natuf,
       title: "Natuf",
       description: "Natuf brings the finest Middle Eastern deserts and FMCG products.",
@@ -196,6 +203,13 @@ const Projects = () => {
       title: "Stitch n Sin",
       description: "Stitch n Sin offers premium women’s clothing, both traditional and western styles.",
       demoLink: "https://stitchnsin.com/",
+    },
+     {
+      image: ItalianPavillion,
+      title: "Italian Pavillion (italian ambassy )",
+      description: "Italian Pavillion is a mall who hosts most of the events of italian ambassy in India.",
+     
+      demoLink: "https://italian-pavilion.webflow.io/",
     },
     {
       image: vaidahi,
