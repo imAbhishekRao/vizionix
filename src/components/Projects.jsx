@@ -9,9 +9,8 @@ import stitch from "../image/stitchnsinviz.png";
 import max from "../image/maxxon.png";
 import Navbar from "./Navbar";
 import Footer from "./footer";
-import GlowmieImage from "../image/glowmieimage.png"; // Add your image path here
-import ItalianPavillion from "../image/ItalianPavallion.png"; // Add your image path here
-
+import GlowmieImage from "../image/glowmieviz.png";
+import ItalianPavillion from "../image/italianpavillion.png";
 import WhyWorkWithVizionix from "./whyworkwithus";
 
 const styles = {
