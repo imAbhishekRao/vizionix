@@ -12,6 +12,7 @@ import Footer from "./footer";
 import Glowmie from "../image/glow.png";
 import IP from "../image/IPP.png";
 import WhyWorkWithVizionix from "./whyworkwithus";
+import Tycoon from "../image/tycoon.png";
 
 const styles = {
   container: {
@@ -215,6 +216,12 @@ const Projects = () => {
       image: max,
       title: "Maxxon TMT Bars",
       description: "Maxxon is a leading TMT bar manufacturer, exporting quality products globally.",
+      demoLink: "https://maxxon.in/",
+    },
+     {
+      image: Tycoon,
+      title: "Tycoon Immigration",
+      description: "Tycoon Immigration is a sleek consultancy website for visa services and client inquiries.",
       demoLink: "https://maxxon.in/",
     },
     {

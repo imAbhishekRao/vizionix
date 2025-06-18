@@ -114,7 +114,7 @@ const ContactForm = () => {
 
             <div className="space-y-6 text-2xl">
           <p>  <a href="tel:+917508857909">
-                <strong>Phone:</strong>+917508857909
+                <strong>Phone:</strong>+918344200021
                 </a></p>
                   <p>
                 <a href="tel: +919780883345">
