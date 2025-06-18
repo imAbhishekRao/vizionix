@@ -40,7 +40,7 @@ export default function LandingPage() {
           </div>
           <div className="lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0">
             <img
-              src="https://github.com/imAbhishekRao/vizionix/blob/master/public/Untitled%20design%20(2).png?raw=true"
+              src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/Yellow%20and%20Black%20Modern%20Web%20Design%20and%20Development%20Service%20Agency%20Instagram%20Post.png?raw=true"
               alt="Hero Image"
               className="max-w-full h-auto rounded-lg animated-hero"
             />

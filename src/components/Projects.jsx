@@ -203,19 +203,8 @@ const Projects = () => {
       description: "Stitch n Sin offers premium women’s clothing, both traditional and western styles.",
       demoLink: "https://stitchnsin.com/",
     },
-     {
-      image: IP,
-      title: "Italian Pavillion (italian ambassy )",
-      description: "Italian Pavillion is a mall who hosts most of the events of italian ambassy in India.",
-     
-      demoLink: "https://italian-pavilion.webflow.io/",
-    },
-    {
-      image: vaidahi,
-      title: "Vaidahi Label",
-      description: "Vaidahi Label specializes in traditional women’s clothing with a focus on elegance.",
-      demoLink: " https://vaidahi.in/",
-    },
+ 
+
     {
       image: studywave,
       title: "The Study Wave",
